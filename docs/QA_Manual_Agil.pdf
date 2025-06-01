@@ -1,0 +1,36 @@
+
+---
+
+## ✅ 2. `docs/QA_Manual_Agil.pdf`
+
+> 📄 O PDF gerado com todos os conteúdos (pode ser adicionado manualmente depois de rodar o script)
+
+**Como salvar:**
+- Crie a pasta `docs/`
+- Copie o PDF para dentro dela com o nome: `QA_Manual_Agil.pdf`
+
+---
+
+## ✅ 3. `testes/casos_step_by_step.md`
+
+> 🧪 Casos de teste manuais passo a passo
+
+**Como criar:**
+- Nome do arquivo: `casos_step_by_step.md`
+- Pasta: `testes/`
+
+```markdown
+# Casos de Teste - Passo a Passo
+
+## Caso 1: Login com sucesso
+1. Acessar a página de login.
+2. Inserir e-mail válido.
+3. Inserir senha correta.
+4. Clicar em "Login".
+**Resultado esperado:** Ir para o dashboard com mensagem “Bem-vindo!”
+
+## Caso 2: Cadastro com e-mail já usado
+1. Acessar a página de cadastro.
+2. Preencher com e-mail já registrado.
+3. Clicar em "Cadastrar".
+**Resultado esperado:** Mostrar erro “Este e-mail já está em uso.”
